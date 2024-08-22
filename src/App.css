@@ -1,0 +1,98 @@
+*{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.card:hover{
+    border-color: gray;
+}
+.image{
+    width: 200px;
+    position: relative;
+    border-radius: 100%;
+}
+.pro-online{
+    position: absolute;
+    background-color: green;
+    color: white;
+}
+.pro-offline{
+    position: absolute;
+    background-color: red;
+    color: white;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1ch;
+    flex-wrap: wrap;
+}
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section-3 li{
+display: inline-flex;
+padding: 3px 7px;
+flex-direction: column;
+margin: 3px 7px;
+background-color: gray;
+color: white;
+flex-wrap: wrap;
+border-radius: 5px;
+}
+.role{
+color: rgb(64, 84, 104);
+font-weight: 700;
+}
+.button-section button{
+ padding: 8px 20px;
+ margin: 5px;
+ border-radius: 5px;
+ border: none;
+ background-color: rgb(18, 163, 18);
+ color: white;
+}
+.button-section .follow{
+ background-color: gainsboro;
+ color: black;
+ outline: 2px lightblue solid;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+li:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
